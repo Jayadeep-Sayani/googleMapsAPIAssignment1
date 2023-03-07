@@ -1,0 +1,53 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100vw;
+}
+
+#map {
+  height: 100vh;
+  width: 100vw;
+}
+.directionbutton {
+ padding: 10px;
+ border: none;
+  background: #26abff;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}
+
+
+.directionbutton:hover {
+  background: #fff;
+  color: #26abff;
+  cursor: pointer;
+}
+
+
+.travelSelect {
+  position: absolute;
+  top: 120px;
+  left: 10px;
+  padding: 10px 20px;
+}
+#placeType {
+  position: absolute;
+  top: 180px;
+  padding: 10px 20px;
+  left: 10px;
+}
+
+#radius-slider, label {
+  position: absolute;
+  top: 60px;
+  left: 10px;
+  background: #fff;
+  padding: 10px;
+  font-size: 18px;
+}
+
+#radius-slider {
+  left: 140px;
+}
